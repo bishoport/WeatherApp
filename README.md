@@ -1,2 +1,2 @@
 # WeatherApp
-Do pod install before run
+Do "pod install" in Terminal before run.
