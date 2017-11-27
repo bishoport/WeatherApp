@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (4.5.1)
+  - BWWalkthrough (2.1.2)
+  - EVReflection/Alamofire (5.1.5):
+    - Alamofire
+    - EVReflection/Core
+  - EVReflection/AlamofireXML (5.1.5):
+    - EVReflection/Alamofire
+    - EVReflection/XML
+  - EVReflection/Core (5.1.5)
+  - EVReflection/XML (5.1.5):
+    - EVReflection/Core
+    - XMLDictionary
+  - ReachabilitySwift (4.1.0)
+  - SideMenu (3.1.5)
+  - SwiftEventBus (2.2.0)
+  - SwiftyXMLParser (4.0.0)
+  - XMLDictionary (1.4.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - BWWalkthrough
+  - EVReflection/AlamofireXML
+  - ReachabilitySwift
+  - SideMenu
+  - SwiftEventBus (from `https://github.com/cesarferreira/SwiftEventBus.git`)
+  - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
+
+EXTERNAL SOURCES:
+  SwiftEventBus:
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+  SwiftyXMLParser:
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+CHECKOUT OPTIONS:
+  SwiftEventBus:
+    :commit: 0346d72aaaae72484001d45a29c484635a91de9c
+    :git: https://github.com/cesarferreira/SwiftEventBus.git
+  SwiftyXMLParser:
+    :commit: bd62bc779bde32e752db4aa8ca0035c9390eb2b1
+    :git: https://github.com/yahoojapan/SwiftyXMLParser.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  BWWalkthrough: 6b18dc688ff6b7168383fee07fe199ccaad7e9f7
+  EVReflection: a80157a584cf0b977f5cada98988a3f4e828b863
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  SwiftEventBus: 39cde57d1881f9d6e8afb1f9e41f973e331bf847
+  SwiftyXMLParser: 42cf1c5de8bcdfa0218eb7f054b536635cb64b77
+  XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
+
+PODFILE CHECKSUM: 32c262b36e9899a5a5a9be75b42f24c746b44752
+
+COCOAPODS: 1.3.1
